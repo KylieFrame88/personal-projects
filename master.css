@@ -6,9 +6,22 @@ body{
     margin: 0;
     padding:0; 
 }
+p{
+  margin-inline-end: 10px;
+}
+h3{
+  display: inline;
+  padding-top: 20px;
+  margin: 0px;
+}
+h5{
+  margin: 0;
+}
 
-section{
-  margin-left: 10px;
+figcaption{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header{
@@ -91,6 +104,14 @@ header nav a {
     display: block;
   }
 
+article{
+  margin-left:10px;
+  padding-bottom: 15px;
+}
+.alt-wrap{
+  background-color: #e3f7ff;
+}
+
 footer{
     background-color: #333;
     color: white;
@@ -106,7 +127,7 @@ footer{
 }
 
 .right {
-  width: 60%;
+  width: 75%;
 }
 
 /* Clear floats after the columns */
@@ -121,7 +142,7 @@ footer{
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
-  border-right-style: outset;
+  /*border-right-style: outset;*/
 }
 .duties li{
   padding-block-start: 10px;
@@ -131,11 +152,14 @@ footer{
   .column {
     width: 100%;
   }
+  .right{
+    border-style: none;
+  }
   .jobimg{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 45%;
     border: none;
   }
 }
