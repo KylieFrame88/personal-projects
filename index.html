@@ -3,6 +3,7 @@
     <head>
         <title> Title of my site </title>
         <link rel="stylesheet" href="master.css"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
             <div id="head-wrapper">
@@ -11,11 +12,12 @@
                         <a href="#home">Home</a>
                         <a href="#blog">Blog</a>
                         <div class="dropdown">
-                            <button class="dropbtn">About Me
+                                <button class="dropbtn">About Me
                                 <i class="fa fa-caret-down"></i>
                             </button>
                             <div class="dropdown-content">
-                                <a href="#">Education</a>
+                                <a href="#exp">Experience</a>
+                                <a href="#edu">Education</a>
                                 <a href="#">Formal Experience</a>
                                 <a href="#">Informal Experience</a>
                             </div>
@@ -24,32 +26,80 @@
                     </nav>	
                 </header>
                 <div id="content"> 
-                    <h1>MY PAGE TITLE</h1>
-                    <p>content about title goes here</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
+                    <section id="home">
+                        <h1>Kylie Frame</h1>
+                        <h2>Experienced Website Administrator, Web Analyst, and Project manager</h2>
+                        <hr>
+
+                        <h3>About Me</h3>
+                        <p>
+                            Ever since I could remember, I had a passion for breaking things down and figuring out just how they work. 
+                            While most kids were spending their weekends watching Saturday morning cartoons, 
+                            I spent many days reverse engineering the code on websites and breaking apart my parent's computer to their horror.
+                        </p>
+                        <p>
+                                That passion and knowledge later sparked a big interest in both digital arts and Information technology. 
+                                In high school and college, I studied everything from TV and film to website development and Digital Marketing. 
+                                While I ultimately ended up pursuing a Radio/TV/Film degree with a minor focus towards computer science, 
+                                I had my mind set on using the wonderful relationship of technology and online media marketing/distribution to my advantage.
+                        </p>
+                        <p id="exp">
+                                While I currently work as a small time web analyst , I see my future in a much larger role within this industry helping guide major brands I really believe in towards a brighter path (And higher traffic). 
+                                Between building websites, branding companies, analyzing web based stats and trends; I just want people to be as passionate and excited about your brand as I am about building, tinkering and improving it!
+                        </p>
+                        <h3>Experience</h3>
+                        <!-- JOB 1 -->
+                        <div id="job">
+                            <div class="row">
+                                <div class="column left">
+                                    <img class="jobimg" src="ezlynx-logo.png"></img>
+                                </div>
+                                <div class="column right">
+                                    <h3>Website Specialist</h3>
+                                    <p>List of Duties</p>
+                                    <ul class="duties">
+                                        <li>Track and research the performance of organic/local SEO and advertising campaign efforts using tools and third party programs such as; Google Analytics, Google Webmaster tools, Adwords, Facebook Ads, SEMRush, MOZ, and Yext.</li>
+                                        <li>Produce and report monthly analytic website presentations for agents in an effort to properly translate data into insight and action.</li>
+                                        <li>Work directly with the India and U.S. development teams to manage and complete any extensive website updates or change requests within a timely manner submitted by agents.</li>
+                                        <li>Implement small front-end updates utilizing HTML and CSS, managing pages or blog content, and documenting any procedures applied to a site.</li>
+                                        <li>Manage and delegate all website support tickets submitted by agents to the website team and myself. Provide direct technical support for agents through email ticket, phone, or screen share tools.</li>
+                                        <li>Monitor up/downtime of all current EZLynx websites.</li>
+                                        <li>Beta test new corporate and agency site features while providing constructive feedback to the developers.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- JOB 2 -->
+                        <div id="job">
+                                <div class="row">
+                                    <div class="column left">
+                                        <img class="jobimg" src="" alt="Broken IMG"></img>
+                                    </div>
+                                    <div class="column right">
+                                        <h3>Job Title 2</h3>
+                                        <p>Expereince about the job...</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <!-- JOB 3 -->
+                        <div id="job">
+                                <div class="row">
+                                    <div class="column left">
+                                        <img class="jobimg" src="" alt="Broken IMG"></img>
+                                    </div>
+                                    <div class="column right">
+                                        <h3>Job Title 3</h3>
+                                        <p>Expereince about the job...</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        
+                        <h3 id="edu">Education</h3>
+                        <p>.</p>
+                    </section>
                 </div>
                 <footer>
                     FOOTER GOES HERE
